@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Layout «jewellery»</title>
+</head>
+
+<body>
+	<div class="rootpage">
+		<div class="rootpage__container">
+			<h1>Layout «jewellery»</h1>
+			<div class="rootpage__info">
+				Description of the project
+			</div>
+			<h2>Ready pages:</h2>
+			<ol class="rootpage__list">
+				<li><a target="_blank" href="home.html">Home</a></li>
+				<li><a target="_blank" href="collection.html">Collection</a></li>
+				<li><a target="_blank" href="handcrafted.html">Handcrafted</a></li>
+				<li><a target="_blank" href="hindu-style.html">Hindu style</a></li>
+				<li><a target="_blank" href="jewelry.html">Individual Jewelry Design</a></li>
+			</ol>
+
+			<div class="rootpage__tnx">
+				<h2>Thank you for the order!</h2>
+				<p>Thank you for the order!</p>
+				<p>Contact again!</p>
+			</div>
+			<div class="rootpage__contacts">
+				<h2>My contacts:</h2>
+				<p>Mail: <a href="mailto:email@gmail.com">7yatan@gmail.com</a></p>
+				<p>Phone: <a href="tel:+380671255416">+38 067 125 5416</a></p>
+
+			</div>
+		</div>
+	</div>
+</body>
+<style>
+	@charset "UTF-8";
+	@import url("https://fonts.googleapis.com/css?family=Montserrat:regular,700&display=swap");
+
+	*,
+	*::before,
+	*::after {
+		padding: 0px;
+		margin: 0px;
+		border: 0px;
+		box-sizing: border-box;
+	}
+
+	html,
+	body {
+		height: 100%;
+		margin: 0;
+		padding: 0;
+		min-width: 320px;
+		width: 100%;
+		color: #fff;
+		background-color: #1e275f;
+	}
+
+	body {
+		font-family: Montserrat;
+		font-size: 100%;
+		line-height: 1;
+		font-size: 1.125rem;
+	}
+
+	a {
+		text-decoration: underline;
+		color: #c5bb10;
+		font-size: 1.375rem;
+	}
+
+	@media (max-width: 29.9988rem) {
+		a {
+			font-size: 1.25rem;
+		}
+	}
+
+	a:visited {
+		text-decoration: underline;
+		color: #0fddba;
+	}
+
+	a:hover {
+		text-decoration: none;
+	}
+
+	ul li {
+		list-style: none;
+	}
+
+	img {
+		vertical-align: top;
+	}
+
+	.wrapper {
+		width: 100%;
+		min-height: 100%;
+		overflow: hidden;
+	}
+
+	.rootpage {
+		padding: 30px 0;
+	}
+
+
+
+	.rootpage__container {
+		max-width: 100rem;
+		margin: 0 auto;
+		width: 100%;
+		padding: 0 0.9375rem;
+
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+	}
+
+	h1 {
+		color: #c5bb10;
+		font-size: 3rem;
+		margin: 0px 0px 1.25rem 0px;
+	}
+
+	@media (max-width: 767px) {
+		h1 {
+			font-size: 2rem;
+			margin: 0px 0px 1.25rem 0px;
+		}
+	}
+
+	h2 {
+		color: #c5bb10;
+		font-size: 2rem;
+		margin: 0px 0px 1rem 0px;
+	}
+
+	@media (max-width: 767px) {
+		h2 {
+			font-size: 1.5rem;
+			margin: 0px 0px 1rem 0px;
+		}
+	}
+
+	.rootpage__info {
+		line-height: 140%;
+		margin: 0px 0px 1.5rem 0px;
+	}
+
+	.rootpage__list {
+		margin: 0px 0px 2.25rem 1.25rem;
+	}
+
+	.rootpage__list li:not(:last-child) {
+		margin: 0px 0px 0.9375rem 0px;
+	}
+
+	.rootpage__contacts,
+	.rootpage__tnx {
+		border-radius: 12.5rem;
+		padding: 1.25rem 4.0625rem;
+		line-height: 140%;
+		min-width: 23.75rem;
+	}
+
+	.rootpage__contacts h2,
+	.rootpage__tnx h2 {
+		font-size: 1.5rem;
+	}
+
+	@media (max-width: 47.9375rem) {
+
+		.rootpage__contacts,
+		.rootpage__tnx {
+			border-radius: 2.5rem;
+			padding: 1.125rem;
+			min-width: 18.125rem;
+		}
+	}
+
+	.rootpage__contacts {
+		background: #0c7f70;
+
+	}
+
+	.rootpage__contacts a {
+		color: #ebe691;
+	}
+
+	.rootpage__tnx {
+		background: #c22d63;
+		margin: 0px 0px 1rem 0px;
+	}
+</style>
+
+</html>
